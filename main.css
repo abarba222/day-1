@@ -1,0 +1,69 @@
+h1{
+  text-align: center;
+  color: black;
+  font-size: 36px;
+  font-family: comic;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}
+
+h2{
+  text-align: center;
+  color: black;
+  font-size: 28px;
+  font-family: comic;
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+    background-image: url(budapest.png);
+    background-position: center center;
+  }
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.content {
+  text-align: center;
+}
+
+#links {
+  font-size: 25px;
+  font-family: Impact;
+  background-color: transparent;
+  font-weight: bold;
+  font-style: italic;
+  color: black;
+  /* This works, but isn't the best */
+  /*position: relative;
+  top: 20px;
+  left: 120px;
+  width: 300px;*/
+  display: inline-block;
+}
+
+footer{
+  position: center bottom;
+  }
+    .facebook {
+      -webkit-transform: scale(0.03); /* Saf3.1+, Chrome */
+        -moz-transform: scale(0.03); /* FF3.5+ */
+          -ms-transform: scale(0.03); /* IE9 */
+            -o-transform: scale(0.03); /* Opera 10.5+ */
+              transform: scale(0.03);/* IE6–IE9 */
+                filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.99996192306
+                  41713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=
+                    0.9999619230641713,SizingMethod='auto expand');
+        }​
+}
+
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
